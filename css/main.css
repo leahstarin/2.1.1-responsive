@@ -5811,6 +5811,13 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
+img {
+  max-width: 100%; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
 body {
   background-image: url("../images/backroundimg.jpg");
   background-repeat: no-repeat;
@@ -5822,41 +5829,59 @@ body {
   background-size: cover;
   text-align: center; }
 
-ul {
+.media {
+  text-decoration: none;
+  display: inline-block; }
+
+.social-links {
+  float: right; }
+  .social-links li {
+    display: inline-block;
+    list-style: none; }
+
+.contentbox {
+  height: 454px;
+  border: 5px solid #f9f9f9;
+  background-position: 79%;
+  box-shadow: 0 4px #888888;
+  background-size: cover; }
+
+.lance {
+  background-image: url("../images/lance.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 70%;
+  height: 239px; }
+
+.rodney {
+  background-image: url("../images/rodney.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 30%;
+  height: 239px; }
+
+.steve {
+  background-image: url("../images/steve-1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 439px; }
+
+.tommy {
+  background-image: url("../images/tommy.png");
+  background-repeat: no-repeat;
+  background-position: 85%;
+  height: 650px; }
+
+.boards {
+  height: 295px;
+  width: 100%;
+  margin: 31px 0 0 0;
+  box-shadow: 0 4px #888888;
   list-style: none; }
 
-.container, .col {
-  /*background-color: red;*/
-  border: 2px solid white; }
-
-.subscribe-link {
-  float: right;
-  padding-right: 30px;
-  color: white; }
-
-.social-links a {
-  color: white; }
-
-.media {
-  height: 60px; }
-
-.primary-nav a {
-  color: white;
-  background-color: red; }
-
-.bannerimg {
-  height: 338px;
-  width: 1006px;
-  border: 10px solid white;
-  -webkit-animation-delay: 0s;
-  /* Chrome, Safari, Opera */
-  animation-delay: 0s;
-  float: center; }
-
-.gallery {
-  display: inline; }
-
-.skateboard {
-  float: left; }
+.boards ul li {
+  display: inline-block;
+  line-height: 295px;
+  margin-left: 2.5%; }
 
 /*# sourceMappingURL=main.css.map */

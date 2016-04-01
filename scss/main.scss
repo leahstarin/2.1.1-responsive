@@ -4,6 +4,17 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 /* Import Bootstrap */
 @import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
 
+img{
+  max-width: 100%;
+}
+
+* {
+margin: 0;
+padding: 0;
+}
+
+
+
 body {
   background-image: url("../images/backroundimg.jpg");
   background-repeat: no-repeat;
@@ -17,6 +28,11 @@ body {
 
  }
 
+ .media {
+   text-decoration: none;
+   display: inline-block;
+ }
+
  .social-links {
    float: right;
    li {
@@ -25,81 +41,121 @@ body {
    }
  }
 
- .lance {
-   border: 5px solid white;
-  width: 252px;
-  height: 200px;
-  margin-left: -15px;
-  padding-right: 1px;
+ .contentbox {
+   height: 454px;
+   border: 5px solid rgba(249, 249, 249, 1);
+   background-position: 79%;
+   box-shadow: 0 4px #888888;;
+   background-size: cover;
  }
+
+ .lance {
+     background-image: url("../images/lance.png");
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: 70%;
+     height: 239px;
+
+   }
+
+
 
  .rodney {
-   border: 5px solid white;
-  width: 252px;
-  height: 200px;
-  margin-left: -15px;
-  padding-right: 1px;
- }
+     background-image: url("../images/rodney.png");
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: 30%;
+     height: 239px;
+   }
+
+
 
  .steve {
-   border: 5px solid white;
-  height: 220px;
-  width: 520px;
-  margin-left: -15px;
-  padding-right: 1px;
- }
+     background-image: url("../images/steve-1.png");
+     background-size: cover;
+     background-repeat: no-repeat;
+     height: 439px;
+   }
+
+
 
  .tommy {
-   border: 5px solid white;
-  height: 439px;
-  width: 242px;
-  margin-left: -15px;
- }
+      background-image: url("../images/tommy.png");
+      background-repeat: no-repeat;
+      background-position: 85%;
+      height: 650px;
+
+   }
+
+   .boards {
+      height: 295px;
+      width: 100%;
+      margin: 31px 0 0 0;
+      box-shadow: 0 4px #888888;
+      list-style: none;
 
 
-//  .skaters{
-//
-//     .lance{
-//       height: 232px;
-//     }
-//
-//     .rodney{
-//       height: 232px
-//     }
-//
-//     .steve{
-//       height: 232px
-//     }
-//
-//     .tommy{
-//       height:474px;
-//       backround: url(images/tommy.png);
-//     }
-//   }
+    }
+
+    .boards ul li {
+  display: inline-block;
+  line-height: 295px;
+  margin-left: 2.5%;
+}
+
+
+
+
+
+
+  // height: 439px;
+  // width: 242px;
+
 //
 //
-//
-//
-//
-//
-//   ul {
-//    list-style: none;
-//   }
-//
-//   .container, .col {
-//    /*background-color: red;*/
-//    border: 2px solid white;
-//   }
-//   .subscribe-link {
-//    float: right;
-//    padding-right: 30px;
-//    color: white;
-//   }
-//
-//   .social-links a {
-//    color: white;
-//   }
-//
+// //  .skaters{
+// //
+// //     .lance{
+// //       height: 232px;
+// //     }
+// //
+// //     .rodney{
+// //       height: 232px
+// //     }
+// //
+// //     .steve{
+// //       height: 232px
+// //     }
+// //
+// //     .tommy{
+// //       height:474px;
+// //       backround: url(images/tommy.png);
+// //     }
+// //   }
+// //
+// //
+// //
+// //
+// //
+// //
+// //   ul {
+// //    list-style: none;
+// //   }
+// //
+// //   .container, .col {
+// //    /*background-color: red;*/
+// //    border: 2px solid white;
+// //   }
+// //   .subscribe-link {
+// //    float: right;
+// //    padding-right: 30px;
+// //    color: white;
+// //   }
+// //
+// //   .social-links a {
+// //    color: white;
+// //   }
+// //
 //   .media {
 //    height: 60px;
 //   }
