@@ -1,0 +1,119 @@
+/* Bootstrap Variables */
+$icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
+
+/* Import Bootstrap */
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+
+body {
+  background-image: url("../images/backroundimg.jpg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+
+ }
+
+ .social-links {
+   float: right;
+   li {
+     display: inline-block;
+     list-style: none;
+   }
+ }
+
+ .lance {
+   border: 5px solid white;
+  width: 252px;
+  height: 200px;
+  margin-left: -15px;
+  padding-right: 1px;
+ }
+
+ .rodney {
+   border: 5px solid white;
+  width: 252px;
+  height: 200px;
+  margin-left: -15px;
+  padding-right: 1px;
+ }
+
+ .steve {
+   border: 5px solid white;
+  height: 220px;
+  width: 520px;
+  margin-left: -15px;
+  padding-right: 1px;
+ }
+
+ .tommy {
+   border: 5px solid white;
+  height: 439px;
+  width: 242px;
+  margin-left: -15px;
+ }
+
+
+//  .skaters{
+//
+//     .lance{
+//       height: 232px;
+//     }
+//
+//     .rodney{
+//       height: 232px
+//     }
+//
+//     .steve{
+//       height: 232px
+//     }
+//
+//     .tommy{
+//       height:474px;
+//       backround: url(images/tommy.png);
+//     }
+//   }
+//
+//
+//
+//
+//
+//
+//   ul {
+//    list-style: none;
+//   }
+//
+//   .container, .col {
+//    /*background-color: red;*/
+//    border: 2px solid white;
+//   }
+//   .subscribe-link {
+//    float: right;
+//    padding-right: 30px;
+//    color: white;
+//   }
+//
+//   .social-links a {
+//    color: white;
+//   }
+//
+//   .media {
+//    height: 60px;
+//   }
+//
+//   .primary-nav a {
+//    color: white;
+//    background-color: red;
+//   }
+//
+//   .bannerimg {
+//    height: 338px;
+//    width: 1006px;
+//    border: 10px solid white;
+//    -webkit-animation-delay: 0s; /* Chrome, Safari, Opera */
+//    animation-delay: 0s;
+//    float: center;
+// }
